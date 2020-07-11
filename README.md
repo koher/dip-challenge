@@ -16,3 +16,7 @@ Following [DIP](https://en.wikipedia.org/wiki/Dependency_inversion_principle), c
 UI                    Use Cases --> Entities
    --> Presenters -->
 ```
+
+## App
+
+This app is named "Weatherteller". It is a kind of fortune-telling apps, whose results are weathers. When you input your birthday, the app shows your "weather" of today.
