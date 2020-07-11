@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftYMD",
+        "repositoryURL": "https://github.com/koher/swift-ymd.git",
+        "state": {
+          "branch": null,
+          "revision": "53326c943f999ffbc1f047e048252559b54482c8",
+          "version": "0.1.0-alpha.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

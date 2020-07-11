@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D63378BA24B993F60046004D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63378B924B993F60046004D /* AppDelegate.swift */; };
+		D63378BC24B993F60046004D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63378BB24B993F60046004D /* SceneDelegate.swift */; };
+		D63378BE24B993F60046004D /* WeathertellerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63378BD24B993F60046004D /* WeathertellerViewController.swift */; };
+		D63378C124B993F60046004D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63378BF24B993F60046004D /* Main.storyboard */; };
+		D63378C324B993F70046004D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D63378C224B993F70046004D /* Assets.xcassets */; };
+		D63378C624B993F70046004D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63378C424B993F70046004D /* LaunchScreen.storyboard */; };
+		D63378D124B993F70046004D /* WeathertellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63378D024B993F70046004D /* WeathertellerTests.swift */; };
+		D63378E024B994BB0046004D /* Weatherteller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63378DF24B994BB0046004D /* Weatherteller.swift */; };
+		D63378E224B994D70046004D /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63378E124B994D70046004D /* Weather.swift */; };
+		D63378E524B995CF0046004D /* SwiftYMD in Frameworks */ = {isa = PBXBuildFile; productRef = D63378E424B995CF0046004D /* SwiftYMD */; };
+		D63378E724B9975A0046004D /* WeathertellerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63378E624B9975A0046004D /* WeathertellerManager.swift */; };
+		D63378EA24B997DF0046004D /* WeathertellerInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63378E924B997DF0046004D /* WeathertellerInput.swift */; };
+		D63378EC24B998EE0046004D /* WeatherPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63378EB24B998EE0046004D /* WeatherPresenter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D63378CD24B993F70046004D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D63378AE24B993F60046004D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D63378B524B993F60046004D;
+			remoteInfo = Weatherteller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D63378B624B993F60046004D /* Weatherteller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weatherteller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63378B924B993F60046004D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D63378BB24B993F60046004D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D63378BD24B993F60046004D /* WeathertellerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeathertellerViewController.swift; sourceTree = "<group>"; };
+		D63378C024B993F60046004D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D63378C224B993F70046004D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D63378C524B993F70046004D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D63378C724B993F70046004D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63378CC24B993F70046004D /* WeathertellerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeathertellerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63378D024B993F70046004D /* WeathertellerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeathertellerTests.swift; sourceTree = "<group>"; };
+		D63378D224B993F70046004D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63378DF24B994BB0046004D /* Weatherteller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weatherteller.swift; sourceTree = "<group>"; };
+		D63378E124B994D70046004D /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		D63378E624B9975A0046004D /* WeathertellerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeathertellerManager.swift; sourceTree = "<group>"; };
+		D63378E924B997DF0046004D /* WeathertellerInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeathertellerInput.swift; sourceTree = "<group>"; };
+		D63378EB24B998EE0046004D /* WeatherPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPresenter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D63378B324B993F60046004D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63378E524B995CF0046004D /* SwiftYMD in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63378C924B993F70046004D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D63378AD24B993F60046004D = {
+			isa = PBXGroup;
+			children = (
+				D63378B824B993F60046004D /* Weatherteller */,
+				D63378CF24B993F70046004D /* WeathertellerTests */,
+				D63378B724B993F60046004D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D63378B724B993F60046004D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D63378B624B993F60046004D /* Weatherteller.app */,
+				D63378CC24B993F70046004D /* WeathertellerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D63378B824B993F60046004D /* Weatherteller */ = {
+			isa = PBXGroup;
+			children = (
+				D63378DE24B994A70046004D /* Entities */,
+				D63378DD24B9949E0046004D /* UseCases */,
+				D63378DC24B994950046004D /* Presenters */,
+				D63378E824B997C80046004D /* Controllers */,
+				D63378DB24B994190046004D /* UI */,
+				D63378BF24B993F60046004D /* Main.storyboard */,
+				D63378C224B993F70046004D /* Assets.xcassets */,
+				D63378C424B993F70046004D /* LaunchScreen.storyboard */,
+				D63378C724B993F70046004D /* Info.plist */,
+			);
+			path = Weatherteller;
+			sourceTree = "<group>";
+		};
+		D63378CF24B993F70046004D /* WeathertellerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D63378D024B993F70046004D /* WeathertellerTests.swift */,
+				D63378D224B993F70046004D /* Info.plist */,
+			);
+			path = WeathertellerTests;
+			sourceTree = "<group>";
+		};
+		D63378DB24B994190046004D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D63378B924B993F60046004D /* AppDelegate.swift */,
+				D63378BB24B993F60046004D /* SceneDelegate.swift */,
+				D63378BD24B993F60046004D /* WeathertellerViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D63378DC24B994950046004D /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				D63378EB24B998EE0046004D /* WeatherPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		D63378DD24B9949E0046004D /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				D63378E624B9975A0046004D /* WeathertellerManager.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		D63378DE24B994A70046004D /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				D63378DF24B994BB0046004D /* Weatherteller.swift */,
+				D63378E124B994D70046004D /* Weather.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		D63378E824B997C80046004D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D63378E924B997DF0046004D /* WeathertellerInput.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D63378B524B993F60046004D /* Weatherteller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63378D524B993F70046004D /* Build configuration list for PBXNativeTarget "Weatherteller" */;
+			buildPhases = (
+				D63378B224B993F60046004D /* Sources */,
+				D63378B324B993F60046004D /* Frameworks */,
+				D63378B424B993F60046004D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weatherteller;
+			packageProductDependencies = (
+				D63378E424B995CF0046004D /* SwiftYMD */,
+			);
+			productName = Weatherteller;
+			productReference = D63378B624B993F60046004D /* Weatherteller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D63378CB24B993F70046004D /* WeathertellerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63378D824B993F70046004D /* Build configuration list for PBXNativeTarget "WeathertellerTests" */;
+			buildPhases = (
+				D63378C824B993F70046004D /* Sources */,
+				D63378C924B993F70046004D /* Frameworks */,
+				D63378CA24B993F70046004D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D63378CE24B993F70046004D /* PBXTargetDependency */,
+			);
+			name = WeathertellerTests;
+			productName = WeathertellerTests;
+			productReference = D63378CC24B993F70046004D /* WeathertellerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D63378AE24B993F60046004D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = koherent.org;
+				TargetAttributes = {
+					D63378B524B993F60046004D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					D63378CB24B993F70046004D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = D63378B524B993F60046004D;
+					};
+				};
+			};
+			buildConfigurationList = D63378B124B993F60046004D /* Build configuration list for PBXProject "Weatherteller" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D63378AD24B993F60046004D;
+			packageReferences = (
+				D63378E324B995CF0046004D /* XCRemoteSwiftPackageReference "swift-ymd" */,
+			);
+			productRefGroup = D63378B724B993F60046004D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D63378B524B993F60046004D /* Weatherteller */,
+				D63378CB24B993F70046004D /* WeathertellerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D63378B424B993F60046004D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63378C624B993F70046004D /* LaunchScreen.storyboard in Resources */,
+				D63378C324B993F70046004D /* Assets.xcassets in Resources */,
+				D63378C124B993F60046004D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63378CA24B993F70046004D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D63378B224B993F60046004D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63378E724B9975A0046004D /* WeathertellerManager.swift in Sources */,
+				D63378EC24B998EE0046004D /* WeatherPresenter.swift in Sources */,
+				D63378BE24B993F60046004D /* WeathertellerViewController.swift in Sources */,
+				D63378BA24B993F60046004D /* AppDelegate.swift in Sources */,
+				D63378E024B994BB0046004D /* Weatherteller.swift in Sources */,
+				D63378BC24B993F60046004D /* SceneDelegate.swift in Sources */,
+				D63378E224B994D70046004D /* Weather.swift in Sources */,
+				D63378EA24B997DF0046004D /* WeathertellerInput.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63378C824B993F70046004D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63378D124B993F70046004D /* WeathertellerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D63378CE24B993F70046004D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D63378B524B993F60046004D /* Weatherteller */;
+			targetProxy = D63378CD24B993F70046004D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D63378BF24B993F60046004D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D63378C024B993F60046004D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D63378C424B993F70046004D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D63378C524B993F70046004D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D63378D324B993F70046004D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D63378D424B993F70046004D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D63378D624B993F70046004D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Weatherteller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.koherent.Weatherteller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D63378D724B993F70046004D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Weatherteller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.koherent.Weatherteller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D63378D924B993F70046004D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQ3JC8F3HL;
+				INFOPLIST_FILE = WeathertellerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.koherent.WeathertellerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weatherteller.app/Weatherteller";
+			};
+			name = Debug;
+		};
+		D63378DA24B993F70046004D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQ3JC8F3HL;
+				INFOPLIST_FILE = WeathertellerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.koherent.WeathertellerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weatherteller.app/Weatherteller";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D63378B124B993F60046004D /* Build configuration list for PBXProject "Weatherteller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63378D324B993F70046004D /* Debug */,
+				D63378D424B993F70046004D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63378D524B993F70046004D /* Build configuration list for PBXNativeTarget "Weatherteller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63378D624B993F70046004D /* Debug */,
+				D63378D724B993F70046004D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63378D824B993F70046004D /* Build configuration list for PBXNativeTarget "WeathertellerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63378D924B993F70046004D /* Debug */,
+				D63378DA24B993F70046004D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D63378E324B995CF0046004D /* XCRemoteSwiftPackageReference "swift-ymd" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/koher/swift-ymd.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = "0.1.0-alpha.4";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D63378E424B995CF0046004D /* SwiftYMD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D63378E324B995CF0046004D /* XCRemoteSwiftPackageReference "swift-ymd" */;
+			productName = SwiftYMD;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D63378AE24B993F60046004D /* Project object */;
+}
